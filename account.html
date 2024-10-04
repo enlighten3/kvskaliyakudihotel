@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kvs Kaliyakudi | About us</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+       <div class="container">
+          <div class="navbar">
+              <div class="logo">
+                  <a href="index.html"><img src="images/logo1.png" width="125px"></a>
+              </div>
+              <nav>
+                <ul id="MenuItems">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">Menu</a></li>
+                    <li><a href="account.html">About</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="#">Account</a></li>
+                </ul>
+              </nav>
+              <img src="images/menu.png" onclick="menutoggle()" class="menu-icon">
+          </div>
+          
+          
+       </div>
+       
+       
+<!--------------Cart Items details--------------->
+<div class="accout-page">
+    <div class="container">
+  
+       <div class="row">
+         
+          <div class="col-2">
+             <img src="images/abc.png" width="100%">
+          </div>
+          
+           <div class="col-2">
+             <h2>KVS Kaliyakudi Hotel & Caters</h2><br>
+             <p>Mayavaram Kaliyakudyi hotal was started in the
+                year - 1932 at Mayiladuthurai [the then Mayavaram town],
+                a hindu pilgrim center famous for 'Kadamulzhuku' [a divine
+                dip in the river ofKaveri to relinquish the sins ofthe human
+                birth]</p><br>
+                <p>Sri.K.V.SRINIVASA IYER was the founder of the pioneer
+                    restaurant of this kind which is famous for ALWA, RAVA
+                    DOSAI and South Indian filter coffee.</p><br>
+              <p>The Hindu generation of the restaurant has grown and spread
+                all over Tamil Nadu with tradition and taste of vegetarian.</p><br>
+            <p>Mayavaram Kaliyakudyi catering services has started its restaurant and canteen at the
+                premises of 'Blalji Medical College Hospital' in 201 I. Now supplying food for in
+                Inpatients, Doctors, Staff, Para-Medical Staff, Teaching faculties students, Professors of
+                medical college, etc.</p><br>
+                <p>Ambi"s Restaurant an elite vegetarian Restaurant was started in 2017 at Hasthinapuram,
+                    Chrompet. Chennai - 44 for the people who like the delights of the South Indian North Indian
+                    cuisines having bulk cooking kitchen</p><br>
+                    <p>We provide breakfast, lunch and evening snacks for DLF, Manapakkam a software park since
+                        2014.</p>
+                        <br><p>We do outdoor catering and undertake party orders and do cater for Birthday celebration,
+                            Grahapravasams School functions, etc ...</p><br><p>We are building a centralising kitchen for the Industrial catering and bulk cooking at
+                                Thirumudivakkam with state of the art technology without any compromise on hygiene and
+                                taste.</p><p><br>We provide fresh fruit juices, organic food items, filter coffee and fresh tea parlors, chat
+                                    items huts, Soups and sandwitches corner, cool drinks bar etc ... under one roof.</p>
+
+           </div>
+       </div>
+</div>
+</div>
+
+<!----------Footer---------------> 
+
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col1">
+               <h3>KVS Kaliyakudi Hotel</h3>
+               
+            </div>
+            <div class="footer-col2">
+               <img src="images/logo-white.jpg">
+                <p>Our Purpose Is To Sustainably Make the Pleasure and Benefits of Sports Accessible to the Many.</p>
+            </div>
+            <div class="footer-col3">
+               <h3>Our Address</h3>
+                <ul>
+                    <li>Chellammal Vidyalaya Senior Secondary School, 9, 6th Main Rd</li>
+                    <li>Hindu Colony, Nanganallur, Chennai</li>
+                    <li> Tamil Nadu 600061</li>
+                    <li>Contact Us:9360800367</li>
+                </ul>
+            </div>
+            <div class="footer-col4">
+               <h3>Follow Us</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Twitter<li>
+                    <li>Instagram</li>
+                    <li>YouTube</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">Copyright 2025 - KVS Kaliyakudi</p>
+    </div>
+    
+</div>
+
+<!-------------js for toggle menu-------------->
+
+<script>
+    var MenuItems = document.getElementById("MenuItems");
+    
+    MenuItems.style.maxHeight = "0px";
+    
+    function menutoggle()
+    {
+        if(MenuItems.style.maxHeight == "0px")
+            {
+                MenuItems.style.maxHeight = "200px";
+            }else
+            {
+                MenuItems.style.maxHeight = "0px"
+            } 
+    }
+     
+</script>
+<!------------------- form toggle ----------->
+    <script>
+        var LoginForm = document.getElementById("LoginForm");
+        var RegForm = document.getElementById("RegForm");
+        var Indicator = document.getElementById("indicator");
+        
+        function register(){
+                RegForm.style.transform = "translateX(0px)";
+                LoginForm.style.transform = "translateX(0px)";
+                Indicator.style.transform = "translateX(100px)"
+            };
+        function login(){
+                RegForm.style.transform = "translateX(300px)";
+                LoginForm.style.transform = "translateX(300px)";
+                Indicator.style.transform = "translateX(0px)"
+            };
+            
+    </script>
+    
+    
+    
+</body>
+</html>
+
